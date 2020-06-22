@@ -7,7 +7,7 @@ First, the nodephp installer extracts the web interface, then a script that the 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install node
 nvm alias default node
-echo -e "export PATH=\"$PATH:$HOME\/local\/bin\"l >> ~/.bashrc
+echo -e "export PATH=\"$PATH:$HOME\/local\/bin\" >> ~/.bashrc
 ```
 The first line downloads a program called node-version-manager, which allows us to install node without root.
 The next two commands run a script that actually installs node.
