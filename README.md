@@ -1,5 +1,5 @@
-# nodephp
-A node.js controller for linux shared hosting. Allows for installing and running node.js without root access.
+# nodeonline
+A system for running decentralized node.js applications nearly instantly.
 
 ## How do we install node?
 First, the nodephp installer extracts the web interface, then a script that the PHP installer creates runs these commands:
